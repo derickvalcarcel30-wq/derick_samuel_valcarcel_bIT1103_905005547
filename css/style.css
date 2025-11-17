@@ -1,0 +1,205 @@
+.logo img {width: 30px;
+height: auto;
+position: absolute;
+top: 10px;
+left: 20px;
+z-index: 9999;
+}
+
+
+*{
+margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: palegoldenrod;
+  color: #222;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #a6a6a7;
+  padding: 25px 100px;
+  text-align: center;
+  position: relative;
+}
+
+header h1 {
+  color: teal;
+  margin-bottom: 5px;
+}
+
+header h2 {
+  font-size: 18px;
+  font-style: italic;
+  color: #444;
+}
+
+nav {
+  position: absolute;
+  top: 25px;
+  right: 100px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: teal;
+}
+
+section {
+  padding: 40px 100px;
+}
+
+#news article, #highlights ul {
+  margin-top: 15px;
+}
+
+#highlights ul li {
+  margin-bottom: 10px;
+}
+
+.match {
+  background: #ece7e7;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border-left: 4px solid teal;
+}
+
+#players img {
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+}
+
+video {
+  margin: 10px;
+  border-radius: 6px;
+}
+
+.contact-container {
+  display: flex;
+  gap: 60px;
+  padding: 50px 100px;
+}
+
+.contact-info p {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.contact-info img {
+  width: 18px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+}
+
+.contact-form button {
+  padding: 12px 20px;
+  background: teal;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background: #006666;
+}
+
+.footer-links {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+.footer-links img {
+  width: 30px;
+  margin-left: 10px;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.social-icons img {
+  width: 30px;
+  margin: 0 10px;
+  transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
+
+@media (max-width: 850px) {
+  header {
+    padding: 30px;
+  }
+
+  nav {
+    position: static;
+    margin-top: 15px;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  section {
+    padding: 20px;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  .footer-links {
+    right: 10px;
+    bottom: 10px;
+  }
+}
+
+footer .social-icons img {
+  width: 30px !important;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+
+
